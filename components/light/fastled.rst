@@ -50,6 +50,10 @@ Configuration variables:
 - **id** (*Optional*, :ref:`config-id`): Manually specify the ID used for code generation.
 - All other options from :ref:`Light <config-light>`.
 
+.. note::
+
+    On the ESP8266 GPIO16 can not be used to drive the data line on these LEDs.
+
 .. _fastled_clockless-chipsets:
 
 Supported Chipsets
